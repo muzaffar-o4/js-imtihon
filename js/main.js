@@ -9,13 +9,10 @@ console.log(arr);
 
 
 
-let word = prompt("So'z kiritng?");
+let user = 'salom dunyo';
 
-function teskari(word) {
-    let soz = word.split("").trim()
-
-    let gap = soz.reverse()
-    return gap
+function teskari(str) {
+    return str.split("").reverse().join("");
 }
 
-console.log(teskari(word));
+console.log(teskari(user));
